@@ -1,0 +1,28 @@
+{
+  "name": "fizz-buzz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isdh/github-actions-up-and-running.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isdh/github-actions-up-and-running/issues"
+  },
+  "homepage": "https://github.com/isdh/github-actions-up-and-running#readme",
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  },
+  "dependencies": {
+    "@cybozu/eslint-config": "^17.0.3",
+    "eslint": "^8.25.0",
+    "prettier": "^2.7.1"
+  }
+}
